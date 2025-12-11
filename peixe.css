@@ -41,7 +41,7 @@
 #texto{
     display: flex;
     flex-wrap: wrap;
-
+    flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;
     text-align: justify;
@@ -56,4 +56,10 @@ h4 {
 }
 h2{
     margin-top: 20px;
+}
+#botão{
+    margin-top: 20px;
+}
+h1{
+    margin-top: 40px;
 }
