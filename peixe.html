@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -9,10 +9,31 @@
 </head>
 
 <body>
-    div*
-    <a href="index.html">
-        <button>Mudar de pagina</button>
-    </a>
+    <div id="container">
+        <div class="content">
+            <div id="item">
+                <div id="imagem"></div>
+            </div>
+            <div id="texto">
+                <h1>BOLO MATILDA</h1>
+                <p><h2>Descrição</h2></p>
+                <p>
+                    Imagine um bolo de chocolate que desafia todas as expectativas. O Bolo Matilda é uma revolução de sabor e textura: sua massa é tão incrivelmente úmida e densa que quase não parece assada, mas sim uma nuvem de chocolate puro que se desfaz delicadamente.
+                    Mais do que doce, é uma experiência sensorial. Cada garfada libera uma avalanche de cacau intenso, equilibrado perfeitamente com a cobertura brilhante e cremosa que o envolve. É aquele momento de silêncio absoluto à mesa, seguido de um suspiro de pura satisfação.
+                    Não é apenas um bolo. É o epítome do conforto gourmet, a prova definitiva de que a simplicidade, quando executada com excelência, se transforma em algo memorável.
+                    Para puristas do chocolate e momentos que merecem o extraordinário.
+                </p>
+                <input type="submit" value="Voltar" id="botao1">
+                <script>
+                    const voltar = document.getElementById('botao1')
+                    voltar.addEventListener("click", function(){
+                        window.location.href="final.html"
+                    })
+                </script>
+            </div>
+            
+        </div>
+    </div>
 </body>
 
 </html>

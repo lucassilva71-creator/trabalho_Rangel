@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,15 +12,30 @@
 
         <div class="card">
             <img src="https://www.sabornamesa.com.br/media/k2/items/cache/b1678c7578ec937ca9cc2c4475a09afc_XL.jpg" alt="" class="imagem1">
-            <div class="text"><p class="verprod">Ver Produto</p></div>
+            <div class="text" id="botao12"><p class="verprod">Ver Produto</p></div>
         </div>
         <div class="card">
              <img src="https://receitinhasdadani.com.br/wp-content/uploads/2024/10/Bolo-Matilda-de-chocolate-com-briganache-1140x720.jpg" alt="" class="imagem1">
-             <div class="text"><p class="verprod">Ver Produto</p></div>
+             <div class="text" id="botao11"><p class="verprod">Ver Produto</p></div>
         </div>
         <div class="card">
-
+            <img src="https://th.bing.com/th/id/R.7c07018da85e906e5a8db5d5fc7b2ba6?rik=8meXma0QpUIqzg&riu=http%3a%2f%2fwww.gabriellfreitass.com.br%2fwp-content%2fuploads%2f2018%2f05%2fIMG_0441.jpg&ehk=JcKLGtD7EolU3Hdt4zr5qlifbnYBsEx3hDd%2fOnBOlW4%3d&risl=&pid=ImgRaw&r=0" alt="" class="imagem1">
+            <div class="text" id="botao13"><p class="verprod">Ver Produto</p></div>
         </div>
     </div>
+    <script>
+        const botao11 = document.getElementById('botao11')
+        botao11.addEventListener("click", function(){
+            window.location.href="peixe.html"
+        })
+        const botao12 = document.getElementById('botao12')
+        botao12.addEventListener("click", function(){
+            window.location.href="peixe1.html"
+        })
+        const botao13 = document.getElementById('botao13')
+        botao13.addEventListener("click", function(){
+            window.location.href="peixe2.html"
+        })
+    </script>
 </body>
 </html>
