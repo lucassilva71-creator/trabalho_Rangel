@@ -2,12 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- 
-}
-p{
-
-    font-weight:bolder;
 }
 :root{
     --primary-color: #f888d6;
@@ -31,7 +25,7 @@ p{
     text-align: center;
     justify-content: space-around;
     background: #fff5f5;
-    background: linear-gradient(to top left,rgba(255, 245, 245, 1) 0%, rgba(255, 161, 232, 1) 100%);
+    background: linear-gradient(0deg,rgba(255, 245, 245, 1) 0%, rgba(255, 161, 232, 1) 100%);
 }
 #item{
     width: 30vw;
@@ -43,22 +37,6 @@ p{
     width: 100%;
     background-size: cover;
     border-radius: 20px;
-}
-#imagem1{
-    
-    background-image: url("https://www.sabornamesa.com.br/media/k2/items/cache/b1678c7578ec937ca9cc2c4475a09afc_XL.jpg");
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    border-radius: 20px;
-}
-#imagem2{
-    background-image: url("https://th.bing.com/th/id/R.7c07018da85e906e5a8db5d5fc7b2ba6?rik=8meXma0QpUIqzg&riu=http%3a%2f%2fwww.gabriellfreitass.com.br%2fwp-content%2fuploads%2f2018%2f05%2fIMG_0441.jpg&ehk=JcKLGtD7EolU3Hdt4zr5qlifbnYBsEx3hDd%2fOnBOlW4%3d&risl=&pid=ImgRaw&r=0");
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    border-radius: 20px;
-    
 }
 #texto{
     display: flex;
@@ -84,7 +62,4 @@ h2{
 }
 h1{
     margin-top: 40px;
-}
-h1,h2{
-    align-self:center;
 }
